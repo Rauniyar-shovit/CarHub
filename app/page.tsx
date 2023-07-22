@@ -34,9 +34,8 @@ export default function Home() {
   };
 
   useEffect(() => {
-    console.log(manufacturer, model, year, fuel, limit);
     getCars();
-  }, [manufacturer, model, year, fuel, limit, getCars]);
+  }, [manufacturer, model, year, fuel, limit]);
 
   return (
     <main className="overflow-hidden">
